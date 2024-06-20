@@ -1,23 +1,23 @@
 const db = require("../database/connection");
 
-const getAllUsers = () =>{
+const getAllUsers = async () =>{
     //your code goes here
 }
 
 
-const getUserById = (id) =>{
+const getUserById = async (id) =>{
     //your code goes here
 }
 
-const createUser = (user) =>{
+const createUser = async (user) =>{
     //your code goes here
 }
 
-const updateUser = (id, user) =>{
+const updateUser = async (id, user) =>{
     //your code goes here
 }
 
-const deleteUser = (id) =>{
+const deleteUser = async (id) =>{
     //your code goes here
 }
 

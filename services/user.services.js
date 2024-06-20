@@ -1,9 +1,32 @@
 const db = require("../database/connection");
 
-const HelloWorld = (text) => {
-    return text;
+const getAllUsers = () =>{
+    //your code goes here
+}
+
+
+const getUserById = (id) =>{
+    //your code goes here
+}
+
+const createUser = (user) =>{
+    //your code goes here
+}
+
+const updateUser = (id, user) =>{
+    //your code goes here
+}
+
+const deleteUser = (id) =>{
+    //your code goes here
 }
 
 module.exports = {
-    HelloWorld
+    getAllUsers,
+    getUserById,
+    createUser,
+    updateUser,
+    deleteUser
 }
+
+
